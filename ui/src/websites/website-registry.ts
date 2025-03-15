@@ -8,6 +8,7 @@ import { KoFi } from './kofi/KoFi';
 import { Inkbunny } from './inkbunny/Inkbunny';
 import { SoFurry } from './sofurry/SoFurry';
 import { e621 } from './e621/e621';
+import { e6ai } from './e6ai/e6ai';
 import { FurAffinity } from './fur-affinity/FurAffinity';
 import { Furtastic } from './furtastic/Furtastic';
 import { SubscribeStar } from './subscribe-star/SubscribeStar';

@@ -5,6 +5,7 @@ export * from './derpibooru/derpibooru.options';
 export * from './deviant-art/deviant-art.options';
 export * from './discord/discord.options';
 export * from './e621/e621.options';
+export * from './e6ai/e6ai.options';
 export * from './fur-affinity/fur-affinity.options';
 export * from './furry-network/furry-network.options';
 export * from './furtastic/furtastic.options';

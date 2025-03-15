@@ -11,6 +11,7 @@ import { KoFiModule } from './ko-fi/ko-fi.module';
 import { InkbunnyModule } from './inkbunny/inkbunny.module';
 import { SoFurryModule } from './so-furry/so-furry.module';
 import { E621Module } from './e621/e621.module';
+import { e6aiModule } from './e6ai/e6ai.module';
 import { FurAffinityModule } from './fur-affinity/fur-affinity.module';
 import { FurtasticModule } from './furtastic/furtastic.module';
 import { SubscribeStarModule } from './subscribe-star/subscribe-star.module';
@@ -50,6 +51,7 @@ import { TwitterModule } from './twitter/twitter.module';
     DeviantArtModule,
     DiscordModule,
     E621Module,
+	e6aiModule,
     FurAffinityModule,
     FurtasticModule,
     FurbooruModule,

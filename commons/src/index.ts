@@ -49,6 +49,8 @@ export * from './interfaces/websites/discord/discord.file.options.interface';
 export * from './interfaces/websites/discord/discord.notification.options.interface';
 export * from './interfaces/websites/e621/e621.account.interface';
 export * from './interfaces/websites/e621/e621.file.options.interface';
+export * from './interfaces/websites/e6ai/e6ai.account.interface';
+export * from './interfaces/websites/e6ai/e6ai.file.options.interface';
 export * from './interfaces/websites/folder.interface';
 export * from './interfaces/websites/fur-affinity/fur-affinity.file.options.interface';
 export * from './interfaces/websites/fur-affinity/fur-affinity.notification.options.interface';
