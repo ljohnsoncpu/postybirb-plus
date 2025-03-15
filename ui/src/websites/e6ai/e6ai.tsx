@@ -20,7 +20,7 @@ export class e6ai extends WebsiteImpl {
   LoginDialog = (props: LoginDialogProps) => <E6aiLogin {...props} />;
 
   FileSubmissionForm = (props: SubmissionSectionProps<FileSubmission, e6aiFileOptions>) => (
-    <e6aiFileSubmissionForm
+    <E6aiFileSubmissionForm
       hideThumbnailOptions={true}
       tagOptions={{
         show: true,
@@ -49,7 +49,7 @@ export class e6ai extends WebsiteImpl {
   );
 }
 
-export class e6aiFileSubmissionForm extends GenericFileSubmissionSection<e6aiFileOptions> {
+export class E6aiFileSubmissionForm extends GenericFileSubmissionSection<e6aiFileOptions> {
   handleSourceChange(index: number, { target }) {
     const part: SubmissionPart<e6aiFileOptions> = _.cloneDeep(this.props.part);
     part.data.sources[index] = target.value;
